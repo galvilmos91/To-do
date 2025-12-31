@@ -4,6 +4,7 @@ body {
 
 .card-body {
     background-color: rgb(10, 56, 10);
+    min-width: 200px;
 }
 
 .card-title {
