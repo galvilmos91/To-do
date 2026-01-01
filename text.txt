@@ -1,3 +1,4 @@
-akármilyen szöveg
-akár több sorban
-txt
+1. megírni a tennivalókat
+2. befejezni az 1. lépést
+3. rájönni, mit akarunk
+3/b HTML-ben megírjuk  a dolgot?
