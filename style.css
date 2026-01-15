@@ -1,10 +1,12 @@
 body {
-   background-color: black;
+   background-color: rgb(107, 22, 22);
+   color: orange;
 }
 
 .card-body {
     background-color: rgb(10, 56, 10);
     min-width: 200px;
+    color: orange;
 }
 
 .card-title {

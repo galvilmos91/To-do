@@ -20,7 +20,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-sm-12 col-md-4 col-lg-2">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card" style="width: auto">
                     <img src="img/image1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -33,24 +33,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-2">
-                <div class="card" style="width: auto">
-                    <img src="img/image3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                            1. megírni a tennivalókat
-                            2. befejezni az 1. lépést
-                            3. rájönni, mit akarunk
-                            3/b HTML-ben megírjuk a dolgot?
-                            4.server
-                            MÉG VALAMI
-                        </p>
-                        <a href="valahol.html" class="btn btn-primary">valahova</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 col-lg-2">
+            <!-- <div class="col-sm-12 col-md-4 col-lg-2">
                 <div class="card" style="width: auto">
                     <img src="img/image1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -66,9 +49,9 @@
                         <a href="index.html" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-sm-12 col-md-4 col-lg-2">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card" style="width: auto">
                     <img src="img/image2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -88,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-2">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card" style="width: auto">
                     <img src="img/image3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -114,12 +97,12 @@
                                 <td>
                             </tr>
                         </table>
-                        <a href="index.html" class="btn btn-primary">Go somewhere</a>
+                        <a href="valahol.html" class="btn btn-primary">VALAHOVA</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-2">
+            <div class="col-sm-12 col-md-4 col-lg-3">
                 <div class="card" style="width: auto">
                     <img src="img/image1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -145,19 +128,13 @@
         </div>
     </div>
 
-    <h2>ToDo JavaScript in Head</h2>
-    <p id="asd">MEGÍRNI A TENNIVALÓKAT!</p>
-    <button type="button" onclick="myFunction()">Do it</button>
-
-
-
     <table>
         <tr>
             <td>Text to Save:</td>
         </tr>
         <tr>
             <td colspan="3">
-                <textarea id="inputTextToSave" cols="80" rows="25"></textarea>
+                <textarea id="inputTextToSave" cols="80" rows="15"></textarea>
             </td>
         </tr>
         <tr>
@@ -179,7 +156,7 @@
             var textToSave = document.getElementById("inputTextToSave").value;
             var textToSaveAsBlob = new Blob([textToSave], { type: "text/plain" });
             var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-            var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
+            var fileNameToSaveAs = todo.txt;
 
             var downloadLink = document.createElement("a");
             downloadLink.download = fileNameToSaveAs;
@@ -208,10 +185,6 @@
         }
 
     </script>
-
-
-
-
 
 </body>
 
